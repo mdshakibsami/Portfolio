@@ -1,0 +1,163 @@
+.experience {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 100px;
+    background: linear-gradient(270.16deg, #FFB14710, #FF6C6310, #B86ADF10)
+}
+
+.experience_container1 {
+    margin-top: 80px;
+}
+
+.xp_card_des {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.xp1_text {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.xp1_xp {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.xp_card {
+    margin: 20px 0px;
+}
+
+.xp_card_des_text1 {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.xp_card_des_text2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.xp_card_des_text3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* awards_section started */
+.awards_section{
+    margin: 30px 100px;
+    text-align: center;
+}
+
+.award_cointainer1 h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47px;
+}
+.award_cointainer1 p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF50;
+}
+
+.award_card{
+    display: flex;
+    text-align: left;
+    background-color: black;
+    padding: 50px;
+    margin: 20px 0px;
+}
+
+#ac_h1{
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 28px;
+
+}
+#ac_h2{
+    width: 300px;
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 28px;
+}
+
+.award_card_des p{
+    margin-top: 20px;
+    padding-right:30px;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: #FFFFFF50;
+}
+
+/* awards_section ended */
+
+/* ************************************************************************* */
+/* Responsive for iPhone SE (max-width:375px)*/
+
+@media only screen and (max-width: 376px) {
+    .experience {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 0px;
+        background: linear-gradient(270.16deg, #FFB14710, #FF6C6310, #B86ADF10)
+    }
+
+    .experience_container1 {
+        margin: 20px 0px;
+
+    }
+
+    .xp_card_des {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .xp1_text {
+        font-size: 9px;
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .xp1_xp {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .xp_card {
+        margin: 20px 0px;
+    }
+
+    .xp_card_des_text1 {
+        font-size: 9px;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .xp_card_des_text2 {
+        font-size: 8px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+    }
+
+    .xp_card_des_text3 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+
+}
+
+/* Responsive for iPhone SE (max-width:375px) Ended*/
