@@ -60,7 +60,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 30px 100px;
+    justify-items: center;
+    margin: 100px 100px;
 }
 
 .bio_and_sosial_link {
@@ -160,9 +161,11 @@ body {
     height: 25px;
 }
 
-.my_picture img {
+
+.myPicture{
     width: 100%;
-}
+} 
+
 
 .rotated_section_container {
     background-color: black;
