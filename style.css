@@ -212,6 +212,7 @@ body {
 
     /* Navigation section started */
     body {
+
         margin: 0px;
         padding: 10px;
 
@@ -231,7 +232,6 @@ body {
     }
 
     .nav_container2 h1 {
-
         font-weight: 400;
         font-size: 8px;
 
@@ -239,7 +239,6 @@ body {
 
 
     .nav_logo h1 {
-
         color: var(--secondary-font-color);
         font-weight: 500;
         font-size: 14px;
@@ -248,7 +247,6 @@ body {
     }
 
     .nav_title {
-
         margin: 0px;
         text-align: center;
     }
